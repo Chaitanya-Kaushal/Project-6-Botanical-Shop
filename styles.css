@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Allerta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F4F3F8;
+
+}
+.li{
+    list-style: none;
+}
+
+#navbarMonstera {
+    font-family: "Allerta",sans-serif;
+    padding: 3em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+}
+
+#navFirst img {
+    width: 90px;
+}
+
+#navMid {
+    display: flex;
+    
+}
+#navMid h4 {
+    margin-left: 4em;
+    font-weight: 500;
+    
+}
+
+#navMid h4:hover{
+   border-bottom: 2px solid black ;
+   cursor: pointer;
+}
+
+#navEnd {
+    display: flex;
+}
+#navEnd img {
+    margin-left: 2em;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+
+
+#midWhole{
+    font-family: "Poppins",sans-serif;
+    margin-left: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    grid-auto-rows: 550px;
+    grid-auto-columns: 100%;
+   
+  
+} 
+
+#midWholePart1{
+    width: 100%;
+    margin-top: 7em;
+    margin-left: 2em;
+}
+
+
+#monstera{
+ font-size: 5rem;
+ font-weight: 900;
+}
+
+
+
+
+#midWholePart11 ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+
+#midWholePart11 li {
+    font-size: .9rem;
+
+}
+
+#midWholePart121 {
+    display: inline-block;
+    padding: 1em 3em;
+    background: #466d50;
+    border-radius: 50px;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+
+#midWholePart121 p{
+    background: #466d50;
+    display: inline-block;
+    font-size: 1.5rem;
+   color: white;
+   font-weight: 300;
+   padding-right: .5em;
+}
+#midWholePart121 img {
+    display: inline-block;
+    background: #466d50;
+    width: 10px;
+   
+    
+}
+
+
+#midWholePart13{
+    display: flex;
+    justify-content: space-between;
+}
+
+#feeding {
+   width: 80px; 
+}
+#care{
+width: 50px;
+}
+#light{
+width: 35px;
+}
+
+.midWholePart13Parts {
+    display: flex;
+}
+.midWholePart13Parts h4 {
+    font-size: .9rem;
+}
+
+.card{
+    margin-left: .5em;
+}
+
+.text {
+    font-size: .5rem;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+
+#imgMain {
+    display: flex; 
+    width: auto;
+    height:100vh;
+    float: right;
+    object-fit:cover;
+    
+  
+   
+   
+}
