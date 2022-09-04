@@ -5,7 +5,7 @@
 In this Project, i have used HTML and CSS to create a ***Botanical Shop*** website's Landing page.  
 As a beginner project, i have lerned lots of new CSS  concepts like- position display-properties, Flex-Box and Border-radius. Also started using CSS Globally without crowding HTML code. 
 
-## [***Project-live-Link-->***]() 
+## [***Project-live-Link-->***](https://botanicalshop.netlify.app/) 
 
 ## <span style="color:red"> **Website Preview-->**</span>
 ![Home-Page](./photos/Thumbnail.png)
